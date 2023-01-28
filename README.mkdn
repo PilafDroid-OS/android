@@ -2,26 +2,10 @@
 <img src="https://github.com/ricedroidOSS/android/blob/thirteen/sushi.png">
 </p>
 
-What is RiceDroid?
+What is PilafDroid?
 ---------------
 Ricedroid is a FREE OPENSOURCE Android Operating System based on LineageOS and crDroid, that aims to provide necessary "ricing" aka customizations for ANDROID while being fast and stable. This operating system is highly inspired by Oxygen OS (10-11) and nothingOS, we strive to make things different but not too far from AOSP.
 
-Terminology
----------------
-The term \'rice\' is used to describe a person's unix desktop where \'ricing\' is an act where someone customizes their desktop such as the changing icons, panels or system interface.
-
-source: https://jie-fang.github.io/blog/basics-of-ricing
-
-
-Maintainership
----------------
-Requirements:
-
-1. Device trees must be properly maintained, patches applied to the tree must be either rom source changes adaptation,bug fixes or improvements.
-2. Must have no known issues in his/her current device community.
-3. Approved by the maintainership application form reviewers. 
-
-Maintainership application form link: https://docs.google.com/forms/d/1TSnWigcR5cZmeABU07gvbBPd_keqlteLcLq4iJif-qw/viewform
  
 Getting Started
 ---------------
@@ -90,7 +74,7 @@ TARGET_CORE_GMS := true/false
 TARGET_CORE_GMS_EXTRAS := true/false - extra packages for core build type (velvet and photos)
 ```
 
-Adapting System Properties for riceDroid
+Adapting System Properties for PilafDroid
 ---------------
 ```bash
 # Enabling MIUI camera mode support
@@ -130,3 +114,4 @@ Credits
 * [**SparkOS**](https://github.com/Spark-Rom)
 * [**StagOS**](https://github.com/StagOS)
 * [**Xdroid-OSS**](https://github.com/xdroid-oss)
+* [**ricedroidOSS**](https://github.com/ricedroidOSS/android)
