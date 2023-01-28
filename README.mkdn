@@ -12,7 +12,7 @@ Getting Started
 **Initialize local repository (thanks to apon77 for repo init script)**
 
 ```bash
-repo init --depth=1 --no-repo-verify -u https://github.com/AndreyDenikin97/android -b 13 -g default
+repo init --depth=1 --no-repo-verify -u https://github.com/PilafDroid-OS/android -b 13 -g default
 ```
 
 **Sync up with this command:**
