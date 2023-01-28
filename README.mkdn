@@ -34,9 +34,6 @@ repo init --depth=1 --no-repo-verify -u https://github.com/AndreyDenikin97/andro
 **Sync up with this command:**
 ```bash
 repo sync -c --no-clone-bundle --force-remove-dirty --optimized-fetch --prune --force-sync -j8
-
-# --force-remove-dirty option can be used to remove previously used projects with uncommitted changes. (to prevent misc sync failures etc.)
-
 ```
 
 Preparing device for this ROM
@@ -52,11 +49,6 @@ Build Flags
 ```bash
 # chipset flag enclose var with "" if more than one
 # friendly tip: builders can use init_xxx.cpp as workaround for spacing
-# e.g. property_override("ro.rice.chipset", "Snapdragon 870 5G");
-RICE_CHIPSET := "snapdragon x"
-
-# chipset flag enclose var with "" if more than one
-# friendly tip: builders can use init_xxx.cpp as workaround for spacing
 # e.g. property_override("ro.rice.maintainer", "get riced");
 RICE_MAINTAINER := "a maintainer"
 
@@ -68,20 +60,11 @@ RICE_PACKAGE_TYPE := "VANILLA AOSP"
 # Sushi Bootanimation (only 720/1080p/1440 supported. if not defined, bootanimation is google bootanimation)
 SUSHI_BOOTANIMATION := 720/1080/1440
 
-# Aperture Camera (default: not defined - skipped by the compiler)
-TARGET_BUILD_APERTURE_CAMERA := true/false
-
-# Graphene Camera (default: not defined - skipped by the compiler)
-TARGET_BUILD_GRAPHENEOS_CAMERA := true/false
-
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true/false
 
 # UDFPS ICONS/ANIMATIONS
 TARGET_HAS_UDFPS := true/false
-
-# Allow usage of custom binary linker (LD), default is false
-TARGET_KERNEL_OPTIONAL_LD := true/false
 
 # Spoof build description/fingerprint as pixel device
 TARGET_USE_PIXEL_FINGERPRINT := true/false
@@ -147,6 +130,3 @@ Credits
 * [**SparkOS**](https://github.com/Spark-Rom)
 * [**StagOS**](https://github.com/StagOS)
 * [**Xdroid-OSS**](https://github.com/xdroid-oss)
-
-
-# android
